@@ -1,0 +1,39 @@
+1.For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+for loop:
+
+let man=[{
+    "name":"Effy",
+    "age":"26",
+    "education qualification":"B.E"
+     
+}]
+for(let i=0;i<man.length;i++)
+console.log(man[i])
+
+for in:
+let man=[{
+    "name":"Effy",
+    "age":"26",
+    "education qualification":"B.E"
+     
+}]
+for (let i in man)
+console.log(i,man[i])
+
+2.Create your own resume data in JSON format:
+let resume=[{
+    "Name":"Effy",
+    "Date of birth": "01-01-1992",
+    "education qualification":"B.E",
+    "Marital Status":"Married",
+    "Gender":"Male",
+    "Residential Address":"No.5,XYZ Street.XYZ,Chennai",
+    "Religion":"Christian",
+    "Phone Number":"+917897656765",
+    "Language": "Tamil",
+    "place":"Chennai",
+    "Date":"05-12-2021"
+}]
+
+
